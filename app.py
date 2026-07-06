@@ -10,7 +10,7 @@ from src.prompt import *
 import os
 
 
-app = Flask(__name__)#initialze flask object
+app = Flask(__name__)
 
 
 load_dotenv()
