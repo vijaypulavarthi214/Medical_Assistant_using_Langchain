@@ -6,16 +6,14 @@
 Clone the repository
 
 ```bash
-git clonehttps://github.com/entbappy/Build-a-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS.git
+git clone https://github.com/vijaypulavarthi214/Medical_Assistant_using_Langchain.git
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a venv environment after opening the repository
 
-```bash
-conda create -n medibot python=3.10 -y
 ```
+uv init
+uv venv
 
-```bash
-conda activate medibot
 ```
 
 
@@ -29,7 +27,7 @@ pip install -r requirements.txt
 
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx" #used openrouter llm
 ```
 
 
